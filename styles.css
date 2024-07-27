@@ -30,7 +30,7 @@ ul {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
-    margin: 12px 160px;
+    margin: 12px 160px 12px 180px;
 }
 
 .header-links {
@@ -40,4 +40,41 @@ ul {
 
 .hero {
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+}
+
+.hero-text {
+    margin: 40px 12px 40px 180px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-sec-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-img {
+    margin: 40px 120px 20px 12px;
+    width: 600px;
+    height: auto;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+    padding: 8px 32px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 8px;
 }
